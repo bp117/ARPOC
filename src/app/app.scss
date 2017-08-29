@@ -1,0 +1,139 @@
+// http://ionicframework.com/docs/v2/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+
+
+page-listView, page-mapView {
+  div.item-ios {
+    padding-left: 0px;
+  }
+  .item-ios.item-block {
+    div.item-inner {
+      padding-right: 0px;
+    }
+    .label-ios {
+      padding: 0px;
+      margin: 10px 0px;;
+    }
+  }
+  .container{
+  	padding-right: 10px;
+  	padding-left: 10px;
+  }
+  ion-list.list {
+    div.ind-prop.item {
+      box-shadow: 4px 3px 5px #888888;
+    }
+    .ind-prop {
+      &.item {
+        margin-bottom: 10px;
+        border-bottom: 2px solid gray;
+        border-radius: 7px;
+        box-shadow: 3px 3px 5px #888888;
+      }
+      .container{
+      	&>div{
+      		margin-top: 3px;
+      		margin-bottom: 3px;
+      	}
+      }
+
+      .line1 {
+        padding: 0px;
+        &>div {
+          padding: 0px;
+          text-align: left;
+        }
+        .star {
+          padding: 0px;
+        }
+        .name{
+        	padding-left: 5px;
+        }
+        h2 {
+          color: #000;
+          font-weight: bold;
+          text-align: left;
+          white-space: normal;
+        }
+        button {
+          color: #fff;
+          background-color: #FFB053;
+          padding: 5px;
+        }
+        i.fa-star-o {
+          color: #FFA500;
+          font-weight: bold;
+          line-height: 16px;
+        }
+      }
+      .line2 {
+        padding: 0px;
+        &>div {
+          padding: 0px;
+          text-align: left;
+        }
+        &>div.circle-right{
+        	text-align: center;
+        }
+        h3 {
+          color: #36648B;
+          font-weight: bold;
+          text-align: left;
+          white-space: normal;
+        }
+        .share{
+        	text-align: center;
+          padding-top: 7px;
+        }
+        .fa-share {
+          color: #FFA500;
+        }
+        .fa-arrow-circle-right {
+          color: #36648B;
+          font-size: 30px;
+        }
+        .add{
+        	padding-top: 7px;
+        }
+      }
+      .line3 {
+        padding: 0px;
+        &>div {
+          padding: 0px;
+          text-align: left;
+          &>* {
+            padding: 0px;
+          }
+        }
+        h4 {
+          color: #36648B;
+          font-weight: bold;
+          text-align: left;
+          white-space: normal;
+        }
+        i.fa-home {
+          margin-right: 5px;
+          color: #36648B;
+        }
+        .distance {
+          color: #36648B;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
