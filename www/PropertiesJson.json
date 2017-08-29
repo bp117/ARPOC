@@ -1,0 +1,9 @@
+
+   [
+  {"propertyId":1,"name":"ABC","address":"ABC address","price":10000.0,"sellDate":"14 Oct 2015","latitude":37.789252,"longitude":-122.403775,"distanceFromCurrentPlace":0.16069658609890805},
+  {"propertyId":2,"name":"Titan","address":"Titan building","price":18000.0,"sellDate":"14 Dec 2015","latitude":37.790223,"longitude":-122.400084,"distanceFromCurrentPlace":0.18205103089624752},
+  {"propertyId":3,"name":"XYZ ","address":"XYZ address","price":67000.0,"sellDate":"8 Feb 2017","latitude":37.790787,"longitude":-122.404043,"distanceFromCurrentPlace":0.2228119093851801},
+  {"propertyId":4,"name":"DGDGDG","address":"DGDGDG address","price":65000.0,"sellDate":"25 Nov 2015","latitude":37.791117,"longitude":-122.400766,"distanceFromCurrentPlace":0.20051959144991308},
+  {"propertyId":5,"name":"Sam Hospital","address":"Sam Hospital address","price":65000.0,"sellDate":"25 Nov 2015","latitude":37.785631,"longitude":-122.414595,"distanceFromCurrentPlace":1.191486057452962}
+  ]
+  
